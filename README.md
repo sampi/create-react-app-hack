@@ -3,8 +3,8 @@ Hacking create-react-app to work with Preact &amp; LESS without ejecting
 
 ## Why?
 
-* Preact is better at living together with external libraries and Custom Elements
-* Preact is smaller
+* Preact is [better](https://custom-elements-everywhere.com/#preact) at living together with external libraries and Custom Elements than [React](https://custom-elements-everywhere.com/#react)
+* Preact is smaller ([React](https://user-images.githubusercontent.com/524272/39094200-406ab32c-462c-11e8-8e4b-2e12e374add0.png) vs [Preact](https://user-images.githubusercontent.com/524272/39094329-14c0b5c6-462e-11e8-8e4d-f5b681e8ed0c.png))
 * Preact didn't have shady license issues
 * We didn't want to `eject` our codebase
 
