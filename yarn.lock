@@ -6447,6 +6447,10 @@ source-list-map@^2.0.0:
   version "2.0.0"
   resolved "https://npm.tradeshift.net/repository/npm-all/source-list-map/-/source-list-map-2.0.0.tgz#aaa47403f7b245a92fbc97ea08f250d6087ed085"
 
+source-list-map@~0.1.7:
+  version "0.1.8"
+  resolved "https://npm.tradeshift.net/repository/npm-all/source-list-map/-/source-list-map-0.1.8.tgz#c550b2ab5427f6b3f21f5afead88c4f5587b2106"
+
 source-map-explorer@^1.5.0:
   version "1.5.0"
   resolved "https://npm.tradeshift.net/repository/npm-all/source-map-explorer/-/source-map-explorer-1.5.0.tgz#654e2ba0db158fecfc99b9cefdf891b755b767d1"
@@ -6484,7 +6488,7 @@ source-map@0.5.x, source-map@^0.5.1, source-map@^0.5.3, source-map@^0.5.6, sourc
   version "0.5.7"
   resolved "https://npm.tradeshift.net/repository/npm-all/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
 
-source-map@^0.4.4:
+source-map@^0.4.4, source-map@~0.4.1:
   version "0.4.4"
   resolved "https://npm.tradeshift.net/repository/npm-all/source-map/-/source-map-0.4.4.tgz#eba4f5da9c0dc999de68032d8b4f76173652036b"
   dependencies:
@@ -7201,6 +7205,13 @@ webidl-conversions@^4.0.0:
   version "4.0.2"
   resolved "https://npm.tradeshift.net/repository/npm-all/webidl-conversions/-/webidl-conversions-4.0.2.tgz#a855980b1f0b6b359ba1d5d9fb39ae941faa63ad"
 
+webpack-core@^0.6.8:
+  version "0.6.9"
+  resolved "https://npm.tradeshift.net/repository/npm-all/webpack-core/-/webpack-core-0.6.9.tgz#fc571588c8558da77be9efb6debdc5a3b172bdc2"
+  dependencies:
+    source-list-map "~0.1.7"
+    source-map "~0.4.1"
+
 webpack-dev-middleware@^1.11.0:
   version "1.12.2"
   resolved "https://npm.tradeshift.net/repository/npm-all/webpack-dev-middleware/-/webpack-dev-middleware-1.12.2.tgz#f8fc1120ce3b4fc5680ceecb43d777966b21105e"
@@ -7256,6 +7267,12 @@ webpack-sources@^1.0.1:
   dependencies:
     source-list-map "^2.0.0"
     source-map "~0.6.1"
+
+webpack-subresource-integrity@^1.1.0-rc.4:
+  version "1.1.0-rc.4"
+  resolved "https://npm.tradeshift.net/repository/npm-all/webpack-subresource-integrity/-/webpack-subresource-integrity-1.1.0-rc.4.tgz#c5c4e3d690f9d2f64a9550e07a8767f9796aa5d8"
+  dependencies:
+    webpack-core "^0.6.8"
 
 webpack@3.8.1:
   version "3.8.1"
