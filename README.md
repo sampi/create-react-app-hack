@@ -10,7 +10,7 @@ Hacking create-react-app to work with Preact &amp; LESS without ejecting
 * My cat told me to do it.
 
 ## How?
-I broke the hack down to 5 steps:
+I broke the hack down to 5 steps and you can view them as Pull Requests here in this repo:
 
 ### Step 0 - Initialize using `create-react-app`
 
