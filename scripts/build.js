@@ -8,7 +8,9 @@ const babelConfig = require('babel-preset-react-app');
 babelIE11(babelConfig);
 
 const webpackPreact = require('./patch/webpackPreact');
+const webpackSRI = require('./patch/webpackSRI');
 const webpackConfig = require('react-scripts/config/webpack.config.prod');
 webpackPreact(webpackConfig);
+webpackSRI(webpackConfig);
 
 require('react-scripts/scripts/build');
