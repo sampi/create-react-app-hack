@@ -5,21 +5,21 @@ exports[`can render into snapshots 1`] = `
   class="App"
 >
   <header
-    class="App-header"
+    class="header"
   >
     <img
       alt="logo"
-      class="App-logo"
+      class="logo"
       src="logo.svg"
     />
     <h1
-      class="App-title"
+      class="title"
     >
       Welcome to React
     </h1>
   </header>
   <p
-    class="App-intro"
+    class="intro"
   >
     To get started, edit 
     <code>
@@ -38,21 +38,21 @@ exports[`can shallow render into snapshots 1`] = `
   class="App"
 >
   <header
-    class="App-header"
+    class="header"
   >
     <img
       alt="logo"
-      class="App-logo"
+      class="logo"
       src="logo.svg"
     />
     <h1
-      class="App-title"
+      class="title"
     >
       Welcome to React
     </h1>
   </header>
   <p
-    class="App-intro"
+    class="intro"
   >
     To get started, edit 
     <code>

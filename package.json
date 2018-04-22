@@ -8,15 +8,28 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "node scripts/start",
+    "prestart": "npm run build-css",
+    "start": "run-p -ncr watch-css start-script",
+    "start-script": "node scripts/start",
+
+    "prebuild": "npm run build-css",
     "build": "node scripts/build",
+
+    "pretest": "npm run build-css",
     "test": "node scripts/test --env=jsdom",
+
     "eject": "react-scripts eject",
+
+    "build-css": "node-less-chokidar src",
+    "watch-css": "node-less-chokidar src --watch",
+
     "preanalyze": "npm run build",
     "analyze": "source-map-explorer --html build/static/js/main.* > packages.html"
   },
   "devDependencies": {
     "module-alias": "^2.0.6",
+    "node-less-chokidar": "^0.1.2",
+    "npm-run-all": "^4.1.2",
     "preact-compat-enzyme": "^0.2.5",
     "preact-render-to-json": "^3.6.6",
     "preact-test-utils": "^0.1.3",
