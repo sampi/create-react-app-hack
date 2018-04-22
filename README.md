@@ -33,3 +33,7 @@ Time to pre-process `LESS` into `CSS`.
 https://github.com/sampi/create-react-app-hack/pull/5
 
 This is how you can add extra `webpack` plugins.
+
+
+
+> PS: My team working on [Tradeshift UI Components](https://github.com/Tradeshift/tradeshift-ui) is [hiring](https://jobs.lever.co/tradeshift/3b5b36e6-e9f1-42e9-9ccc-0d9787464e4f)!
