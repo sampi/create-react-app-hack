@@ -7,7 +7,8 @@ Hacking create-react-app to work with Preact &amp; LESS without ejecting
 * Preact is smaller, even when adding [`preact-compat`](https://github.com/developit/preact-compat) ([React](https://user-images.githubusercontent.com/524272/39094200-406ab32c-462c-11e8-8e4b-2e12e374add0.png) vs [Preact](https://user-images.githubusercontent.com/524272/39094329-14c0b5c6-462e-11e8-8e4d-f5b681e8ed0c.png)),
 * [Preact](https://github.com/developit/preact)'s codebase is small enough to read in a single sitting,
 * Preact didn't have license issues,
-* We didn't want to `eject` our codebase or lose getting updates to `react-scripts`,
+* We didn't want to [`eject`](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#npm-run-eject) and lose getting updates to `react-scripts`,
+* We didn't want to change to another bootstrap framework or write our own,
 * My cat told me to do it.
 
 ## How?
