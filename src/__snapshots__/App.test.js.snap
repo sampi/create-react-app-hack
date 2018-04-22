@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`can render into snapshots 1`] = `
+<div
+  class="App"
+>
+  <header
+    class="App-header"
+  >
+    <img
+      alt="logo"
+      class="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      class="App-title"
+    >
+      Welcome to React
+    </h1>
+  </header>
+  <p
+    class="App-intro"
+  >
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+  <div
+    class="thing"
+  />
+</div>
+`;
+
+exports[`can shallow render into snapshots 1`] = `
+<div
+  class="App"
+>
+  <header
+    class="App-header"
+  >
+    <img
+      alt="logo"
+      class="App-logo"
+      src="logo.svg"
+    />
+    <h1
+      class="App-title"
+    >
+      Welcome to React
+    </h1>
+  </header>
+  <p
+    class="App-intro"
+  >
+    To get started, edit 
+    <code>
+      src/App.js
+    </code>
+     and save to reload.
+  </p>
+  <Thing />
+</div>
+`;
