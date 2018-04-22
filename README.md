@@ -1,6 +1,13 @@
 # create-react-app-hack
 Hacking create-react-app to work with Preact &amp; LESS without ejecting
 
+## Why?
+
+* Preact is better at living together with external libraries and Custom Elements
+* Preact is smaller
+* Preact didn't have shady license issues
+* We didn't want to `eject` our codebase
+
 ## How it's done
 I broke the hack down to 5 steps:
 
