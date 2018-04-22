@@ -3,10 +3,11 @@ Hacking create-react-app to work with Preact &amp; LESS without ejecting
 
 ## Why?
 
-* Preact is [better](https://custom-elements-everywhere.com/#preact) at living together with external libraries and Custom Elements than [React](https://custom-elements-everywhere.com/#react)
-* Preact is smaller ([React](https://user-images.githubusercontent.com/524272/39094200-406ab32c-462c-11e8-8e4b-2e12e374add0.png) vs [Preact](https://user-images.githubusercontent.com/524272/39094329-14c0b5c6-462e-11e8-8e4d-f5b681e8ed0c.png))
-* Preact didn't have shady license issues
-* We didn't want to `eject` our codebase
+* Preact is [better](https://custom-elements-everywhere.com/#preact) at living together with external libraries and Custom Elements than [React](https://custom-elements-everywhere.com/#react),
+* Preact is smaller ([React](https://user-images.githubusercontent.com/524272/39094200-406ab32c-462c-11e8-8e4b-2e12e374add0.png) vs [Preact](https://user-images.githubusercontent.com/524272/39094329-14c0b5c6-462e-11e8-8e4d-f5b681e8ed0c.png)),
+* Preact didn't have shady license issues,
+* We didn't want to `eject` our codebase and lose updates to `react-scripts`,
+* My cat told me to do it.
 
 ## How it's done
 I broke the hack down to 5 steps:
@@ -41,7 +42,7 @@ https://github.com/sampi/create-react-app-hack/pull/5
 
 This is how you can add extra `webpack` plugins.
 
-## Look at my cat, Gustav!
+## Look at Gustav, my cat!
 
 ![This is Gustav!](https://github.com/sampi/create-react-app-hack/raw/master/.github/catgustav.jpg)
 
